@@ -14,7 +14,7 @@ abstractions.
 """
 
 [dependencies]
-socket2 = "0.3"
+socket2 = { git = "https://github.com/redox-os/socket2-rs" }
 
 [dependencies.winapi]
 version = "0.3.3"
